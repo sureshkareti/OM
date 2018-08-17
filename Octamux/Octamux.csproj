@@ -98,6 +98,16 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="css\bootstrap.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\Linearicons-Free.eot" />
+    <Content Include="fonts\Linearicons-Free.ttf" />
+    <Content Include="fonts\Linearicons-Free.woff" />
+    <Content Include="fonts\Linearicons-Free.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,7 +116,42 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\linearicons.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\nice-select.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\Linearicons-Free.svg" />
+    <Content Include="img\about\aboutus.jpg" />
+    <Content Include="img\about\c-logo.png" />
+    <Content Include="img\ClientLogos\All8bitMcu.PNG" />
+    <Content Include="img\ClientLogos\cg %282%29.jpg" />
+    <Content Include="img\ClientLogos\Classigoo_Logox50.png" />
+    <Content Include="img\ClientLogos\refrigiratorserv.jpg" />
+    <Content Include="img\logo\OM_icon.png" />
+    <Content Include="img\logo\OM_logo.png" />
+    <Content Include="img\logo\OM_logo1.png" />
+    <Content Include="img\servicess\icondesigne.png" />
+    <Content Include="img\servicess\iconma.png" />
+    <Content Include="img\servicess\icono365.png" />
+    <Content Include="img\servicess\iconsp.png" />
+    <Content Include="img\servicess\iconszoho1.png" />
+    <Content Include="img\servicess\iconweb.png" />
+    <Content Include="img\servicess\iconwebdev.png" />
+    <Content Include="img\servicess\iconzoho.png" />
     <Content Include="Index.html" />
+    <Content Include="js\isotope.pkgd.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\owl.carousel.min.js" />
+    <Content Include="js\simple-skillbar.js" />
+    <Content Include="js\superfish.min.js" />
+    <Content Include="js\vendor\bootstrap.min.js" />
+    <Content Include="js\vendor\jquery-2.2.4.min.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -114,6 +159,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
